@@ -12,10 +12,20 @@
     "build": "webpack --mode production"
   },
   "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.2.5",
+    "@mui/material": "^5.2.8",
+    "axios": "^0.24.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "date-fns": "^2.28.0",
     "react": "^16.3.1",
     "react-dom": "^16.3.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/plugin-proposal-object-rest-spread": "^7.16.7",
     "babel-core": "6.26.*",
     "babel-loader": "7.1.*",
     "babel-preset-env": "1.7.0",

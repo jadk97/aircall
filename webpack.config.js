@@ -21,6 +21,9 @@ module.exports = {
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader'
+        },
+        resolve: {
+          extensions: [".js", ".jsx"]
         }
       }
     ]
@@ -30,5 +33,5 @@ module.exports = {
       template: "./public/index.html",
       filename: "./index.html"
     })
-  ]
+  ],
 };
