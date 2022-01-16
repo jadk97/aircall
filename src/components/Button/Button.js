@@ -33,7 +33,6 @@ const Button = (props) => {
       backgroundColor: "grey",
       border: "solid 2px grey",
       color: "black",
-      // borderColor: "black",
     },
 
     solid: {
@@ -61,7 +60,6 @@ const Button = (props) => {
         ...(props.solid && buttonClasses.solid),
         ...(props.disabled && buttonClasses.disabled),
       }}
-      className={`$`}
       startIcon={props.alignIcon === "start" && props.icon}
       endIcon={(!props.alignIcon || props.alignIcon === "end") && props.icon}
     >
